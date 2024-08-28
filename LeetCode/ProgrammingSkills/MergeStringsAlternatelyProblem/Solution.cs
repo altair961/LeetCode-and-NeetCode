@@ -1,4 +1,4 @@
-﻿namespace MergeStringsAlternately
+﻿namespace MergeStringsAlternatelyProblem
 {
     internal class Solution
     {
