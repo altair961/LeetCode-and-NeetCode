@@ -50,7 +50,7 @@
 }
 
 // MergeAlternately("abc", "pqr");
-// 1merged: a p b q c r
+// merged: a p b q c r
 
 // Input: word1 = "ab", word2 = "pqrs"
 // Output: "apbqrs"

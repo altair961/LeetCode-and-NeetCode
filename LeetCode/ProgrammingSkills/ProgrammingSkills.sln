@@ -7,7 +7,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MergeStringsAlternatelyProb
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FindTheDifferenceProblem", "FindTheDifferenceProblem\FindTheDifferenceProblem.csproj", "{E46236FD-45F5-421C-9598-56C32EC595B3}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FindTheIndexOfTheFirstOccurenceInAString", "FindTheIndexOfTheFirstOccurenceInAString\FindTheIndexOfTheFirstOccurenceInAString.csproj", "{A4E33777-025A-4CB4-9877-F136BA7FEFD4}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FindTheIndexOfTheFirstOccurenceInAString", "FindTheIndexOfTheFirstOccurenceInAString\FindTheIndexOfTheFirstOccurenceInAString.csproj", "{A4E33777-025A-4CB4-9877-F136BA7FEFD4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ValidAnagram", "ValidAnagram\ValidAnagram.csproj", "{E98201DE-3C49-42F8-9264-1B9327AA6409}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -27,6 +29,10 @@ Global
 		{A4E33777-025A-4CB4-9877-F136BA7FEFD4}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{A4E33777-025A-4CB4-9877-F136BA7FEFD4}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{A4E33777-025A-4CB4-9877-F136BA7FEFD4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E98201DE-3C49-42F8-9264-1B9327AA6409}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E98201DE-3C49-42F8-9264-1B9327AA6409}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E98201DE-3C49-42F8-9264-1B9327AA6409}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E98201DE-3C49-42F8-9264-1B9327AA6409}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
