@@ -1,12 +1,21 @@
 ﻿namespace ValidAnagram
 {
+    // Given two strings s and t, return true if t is an 
+    // anagram of s, and false otherwise.
+
+    // An Anagram is a word or phrase formed by rearranging the letters 
+    // of a different word or phrase, using all the original letters exactly once.
+
+    // Constraints:
+    // 1 <= s.length, t.length <= 5 * 104
+    // s and t consist of lowercase English letters.
+
+    // Follow up: What if the inputs contain Unicode
+    // characters? How would you adapt your solution
+    // to such a case?
+
     internal class Program
     {
-        // Given two strings s and t, return true if t is an 
-        // anagram of s, and false otherwise.
-
-        // An Anagram is a word or phrase formed by rearranging the letters 
-        // of a different word or phrase, using all the original letters exactly once.
 
         static void Main(string[] args)
         {
@@ -21,70 +30,7 @@
             s = "fe"; t = "ja";
             //s = "abd"; t = "eaa";
             //s = "presidentobama"; t = "abaptismredone";
-            /*
-
-            char x;
-            
-            int[] index = new int[256];
-            for (int i = 0; i < 256; i++)
-            {
-                index[i] = -1;
-            }
-
-            int[] count = new int[256];
-            for (int i = 0; i < s.Length; i++)
-            {
-                x = s[i];
-                ++count[x];
-
-                if (count[x] == 1)
-                    index[x] = i;
-
-                if (count[x] > 1)
-                    index[x] = -1;
-            }
-            
-            int[] count2 = new int[256];
-            int[] index2 = new int[256];
-            for (int i = 0; i < 256; i++)
-            {
-                index2[i] = -1;
-            }
-
-            for (int i = 0; i < t.Length; i++)
-            {
-                x = t[i];
-                ++count2[x];
-
-                if (count2[x] == 1)
-                    index2[x] = i;
-
-                if (count2[x] > 1)
-                    index2[x] = -1;
-            }
-
-            int sum = 0;
-            Console.WriteLine("s: ");
-            for (int i = 0; i < 256; i++)
-                if (index[i] != -1) 
-                {
-                    Console.Write(s[index[i]]);
-                    sum += s[index[i]]; 
-                }
-
-            Console.WriteLine("\n\nt : ");
-
-            int sum2 = 0;
-            for (int i = 0; i < 256; i++)
-                if (index2[i] != -1) 
-                {
-                    Console.Write(t[index2[i]]);
-                    sum2 += t[index2[i]];
-                }
-
-            Console.WriteLine("\n\nsum: " + sum);
-            Console.WriteLine("sum2: " + sum2);
-            */
+           
             var result = solution.IsAnagram(s, t);
         }
     }

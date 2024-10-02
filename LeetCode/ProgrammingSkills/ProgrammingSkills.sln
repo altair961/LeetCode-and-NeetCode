@@ -3,13 +3,13 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.11.35208.52
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MergeStringsAlternatelyProblem", "MergeStringsAlternatelyProblem\MergeStringsAlternatelyProblem.csproj", "{535A1967-4931-49E3-8AF2-856A3780A442}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MergeStringsAlternately", "MergeStringsAlternatelyProblem\MergeStringsAlternately.csproj", "{535A1967-4931-49E3-8AF2-856A3780A442}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FindTheDifferenceProblem", "FindTheDifferenceProblem\FindTheDifferenceProblem.csproj", "{E46236FD-45F5-421C-9598-56C32EC595B3}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FindTheDifference", "FindTheDifferenceProblem\FindTheDifference.csproj", "{E46236FD-45F5-421C-9598-56C32EC595B3}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FindTheIndexOfTheFirstOccurenceInAString", "FindTheIndexOfTheFirstOccurenceInAString\FindTheIndexOfTheFirstOccurenceInAString.csproj", "{A4E33777-025A-4CB4-9877-F136BA7FEFD4}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ValidAnagram", "ValidAnagram\ValidAnagram.csproj", "{E98201DE-3C49-42F8-9264-1B9327AA6409}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ValidAnagram", "ValidAnagram\ValidAnagram.csproj", "{E98201DE-3C49-42F8-9264-1B9327AA6409}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
